@@ -1,5 +1,44 @@
-@media screen and (min-width: 1360px) {
+@media screen and (max-width: 1360px) {
     .cards_world{
         left: 16%;
     }
+}
+
+@media screen and (min-width: 1920px) {
+    .cards_world{
+        left: 25%;
+    }
+    .central_world{
+        left: 50%;
+    }
+
+    .world-text h2{
+        position: relative;
+        padding-bottom: 30px;
+        font-size: 45px;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .world-text p{
+        padding-bottom: 20px;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .texto_baixo{
+        padding-bottom: 30px;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        color: #928b8b;
+        margin-bottom: 40px;
+    }
+
+    .header-services{
+        padding-left: 200px;
+    }
+
+    .cards-services{
+        padding-left: 200px;
+    }
+
 }

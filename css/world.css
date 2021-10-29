@@ -15,7 +15,7 @@
     padding-left: 20px;
    }
 
-   .card_world:nth-child(1){
+.card_world:nth-child(1){
     background: #fff;
 }
 .card_world:nth-child(2){
@@ -33,13 +33,12 @@
 .world-text h2{
     position: relative;
     padding-bottom: 30px;
-    font-size: 40px;
     font-family: 'Inter', sans-serif;
 }
 
 .world-text p{
     padding-bottom: 20px;
-    font-size: 14px;
+   
     font-family: 'Inter', sans-serif;
 }
 
@@ -135,6 +134,7 @@
 }
 
 .central_world{
+    margin-left: 200px;
     display: flex;
     align-items: center;
 }
@@ -150,7 +150,8 @@
 }
 
 .world_images{
-    width: 562px;
+    margin-left: 150px;
+    width:50%;
     margin-top: 270px;
 }
 
@@ -187,16 +188,25 @@
 .world-text img{
     position: absolute;
     width: 40px;
-    left: 110px;
+    left: 310px;
     opacity: 50%;
 }
 
 .empresas{
-    height: 45px;
-    width: 972px;
-    margin-left: 126px;
+    height: 100px;
+    width: 50%;
+    margin-left: 456px;
     padding: 88px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.empresas img{
+    filter: grayscale(100%);
+}
+
+.empresas img:hover{
+    filter: grayscale(0%);
+    transform: scaleY(-1)
 }
