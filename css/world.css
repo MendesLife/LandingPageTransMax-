@@ -1,0 +1,194 @@
+.cards_world{
+    position: absolute;
+    top: 800px;
+    left: 25%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.card_world{
+    width: 440px;
+    height: 175px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-left: 20px;
+   }
+
+   .card_world:nth-child(1){
+    background: #fff;
+}
+.card_world:nth-child(2){
+    background: #003B49;
+}
+
+.world-text{
+    padding: 266px 126px 0 126px;
+}
+
+.world-text span{
+    color: #FE7C45
+}
+
+.world-text h2{
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.world-text p{
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Cards */
+
+.img_world{
+    position: relative;
+}
+
+.bola{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -6px;
+    bottom: -3px;
+    background-color: #ffb69752;
+}
+
+.bola2{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -8px;
+    bottom: -5px;
+    background-color: #5e89e652;
+}
+
+.card_textos{
+    font-family: 'Inter', sans-serif;
+}
+
+.card_textos h2{
+    margin-bottom: 10px;
+}
+
+.card_textos p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.card_textos a{
+    font-size: 12px;
+    color: #FE7C45;
+}
+
+.card_textos a:hover{
+    color: #003B49;
+}
+
+.card_textos2{
+    font-family: 'Inter', sans-serif;
+}
+
+.card_textos2 h2{
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+.card_textos2 p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.card_textos2 a{
+    font-size: 12px;
+    color: #FE7C45;
+}
+
+.card_textos2 a:hover{
+    color: white;
+}
+
+.texto_baixo{
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #928b8b;
+    margin-bottom: 40px;
+}
+
+.truck{
+    width: 40px;
+    height: 40px;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+}
+
+.central_world{
+    display: flex;
+    align-items: center;
+}
+
+.img_container{
+    width: 500px;
+    height: 500px;
+ }
+
+.img_work{
+   width: 300px;
+   height: 300px;
+}
+
+.world_images{
+    margin-left: 200px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.cima{
+    bottom: -100px;
+    left: -100px;
+    position: absolute;
+}
+
+.cima img{
+    width: 500px;
+}
+
+.embaixo img{
+    width: 700px;
+}
+
+.button_world{
+    margin-right: 30px;
+    padding: 18px 36px;
+    background: #cfcfcf6b;
+    color: #003B49;
+    font-family:  'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.world-text a:hover{
+    background: #c5c2c2ce;
+}
+
+.world-text img{
+    position: absolute;
+    width: 40px;
+    left: 110px;
+    opacity: 50%;
+}

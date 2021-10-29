@@ -1,0 +1,62 @@
+.banner{
+    background-image:url("/img/Consultoria-aduaneira-e-desembarco-alfandegario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+}
+
+.banner img{
+    position: absolute;
+    bottom: -100px;
+    width: 200px;
+}
+
+.content-text{
+    padding: 160px 0 0 126px;
+    position: relative;
+}
+
+.effect{
+    position: absolute;
+    z-index: 0;
+}
+
+.titulo_home{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.subtitulo_home{
+    padding-top: 8px;
+    color: #fff;
+    font-family:  'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.buttons_home{
+    padding-top: 40px;
+    display: flex;
+}
+
+.button_home{
+    margin-right: 30px;
+    padding: 18px 36px;
+    background: #FE7C45;
+    color: #fff;
+    font-family:  'Roboto', sans-serif;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.link_home{
+    color: #FE7C45;
+    font-family:  'Roboto', sans-serif;
+    font-size: 12px;
+    border-bottom: solid 2px #FE7C45;
+}
