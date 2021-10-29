@@ -1,0 +1,156 @@
+.services{
+    background-color: #F5F5F5;
+    padding-bottom: 88px;
+}
+
+.header-services{
+    margin: 88px 0 0 126px;
+    display: -webkit-inline-box;
+    align-items: flex-end;
+}
+
+.text__services h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+
+.text__services span {
+    color: #FE7C45;
+}
+
+.text__services p {
+    width: 574px;
+    margin-top: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+
+.btn__services{
+    margin-left: 344px;
+    padding: 18px 32px;
+    background-color: #034B5A;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/* Cards*/
+
+.cards-services{
+    display: flex;
+    margin: 30px 0 0 126px;
+}
+
+.card__services{
+    width: 340px;
+    height: 300px;
+    padding: 14px 38px;
+    background-color: #fff;
+    border-bottom: 4px solid #FE7C45;
+}
+
+.card__services:hover{
+    background-color: #034B5A;
+    border: none;
+    color: #fff;
+}
+
+.card__services:nth-child(2){
+    margin-left:34px;
+}
+
+.card__services:nth-child(3){
+    margin-left:34px;
+}
+
+.card__services img {
+    width: 45px;
+    height: 45px;
+}
+
+.card__services h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18PX;
+}
+
+.card__services P {
+    padding: 16PX 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14PX;
+    line-height: 20PX;
+}
+
+.card__services ul {
+    font-family: 'Inter', sans-serif;
+}
+
+.card__services li {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card__services li::marker {
+    color: #FE7C45;
+}
+
+/* Card Caminhão*/
+
+.cards-truck{
+    width: 100%;
+    height: 1002px;
+    margin-top: 88px;
+    display: flex;
+    background-image:url("../img/truck-port.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__truck{
+    width: 360px;
+    height: 1002px;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__truck:nth-child(1){
+    margin-right: 2px;
+}
+
+.card__truck:nth-child(2){
+    margin-right: 2px;
+}
+
+.card__truck:nth-child(3){
+    margin-right: 2px;
+}
+
+.card__truck h3{
+    width: 160px;
+    margin: 0 0 16px 16px;
+    padding-top: 698px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.card__truck p{
+    width: 100%;
+    margin-left: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    order: 1;
+}
+
+.card__truck button{
+    width:30px;
+    margin: 16px 0 0 16px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.233);
+    border: none;
+    border-radius: 50%;
+}

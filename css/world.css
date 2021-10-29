@@ -1,8 +1,6 @@
 .cards_world{
     position: absolute;
     top: 800px;
-    left: 25%;
-    
     display: flex;
     justify-content: center;
 }
@@ -152,9 +150,8 @@
 }
 
 .world_images{
-    margin-left: 200px;
-    margin-top: 200px;
-    position: relative;
+    width: 562px;
+    margin-top: 270px;
 }
 
 .cima{
@@ -174,7 +171,7 @@
 .button_world{
     margin-right: 30px;
     padding: 18px 36px;
-    background: #cfcfcf6b;
+    background: #cfcfcf44;
     color: #003B49;
     font-family:  'Inter', sans-serif;
     font-weight: 700;
@@ -183,7 +180,8 @@
 }
 
 .world-text a:hover{
-    background: #c5c2c2ce;
+    background: #FE7C45;
+    color: #fff;
 }
 
 .world-text img{
@@ -191,4 +189,14 @@
     width: 40px;
     left: 110px;
     opacity: 50%;
+}
+
+.empresas{
+    height: 45px;
+    width: 972px;
+    margin-left: 126px;
+    padding: 88px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
