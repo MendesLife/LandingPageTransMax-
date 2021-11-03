@@ -2,6 +2,10 @@
     .cards_world{
         left: 16%;
     }
+    
+    .world-text {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -12,6 +16,10 @@
         left: 50%;
     }
 
+    .world-text {
+       margin-left: 7%;
+    }
+    
     .world-text h2{
         position: relative;
         padding-bottom: 30px;

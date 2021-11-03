@@ -3,6 +3,7 @@
     top: 800px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card_world{
@@ -18,12 +19,13 @@
 .card_world:nth-child(1){
     background: #fff;
 }
+
 .card_world:nth-child(2){
     background: #003B49;
 }
 
-.world-text{
-    padding: 266px 126px 0 126px;
+.world-text {
+    width: 50%;
 }
 
 .world-text span{
@@ -38,7 +40,6 @@
 
 .world-text p{
     padding-bottom: 20px;
-   
     font-family: 'Inter', sans-serif;
 }
 
@@ -204,9 +205,12 @@
 
 .empresas img{
     filter: grayscale(100%);
+    transition: transform 0.7s;
+    transform: scaleY(1);
 }
 
 .empresas img:hover{
     filter: grayscale(0%);
-    transform: scaleY(-1)
+    transition: transform 0.7s;
+    transform: scaleY(-1);
 }
