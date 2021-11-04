@@ -1,4 +1,9 @@
 @media screen and (max-width: 1360px) {
+    
+    .content-text{
+        margin: 0px 0 0 72px;
+    }
+    
     .cards_world{
         left: 16%;
     }
@@ -6,6 +11,8 @@
     .world-text {
         width: 80%;
     }
+
+
 }
 
 @media screen and (min-width: 1920px) {
