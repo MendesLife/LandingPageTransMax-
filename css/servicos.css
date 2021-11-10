@@ -1,16 +1,26 @@
+.services_all{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 10rem 0 0 12.6rem;
+}
+
+
 .services{
     background-color: #F5F5F5;
+    width: 100%;
+    
 }
 
 .header-services{
-    margin: 88px 0 0 126px;
-    display: -webkit-inline-box;
-    align-items: flex-end;
+    margin: auto;
+    padding-top: 126px;
+    display: flex;
 }
 
 .text__services h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
+    font-size: 4.0rem;
 }
 
 .text__services span {
@@ -21,24 +31,31 @@
     width: 574px;
     margin-top: 24px;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
-
 .btn__services{
-    margin-left: 344px;
-    padding: 18px 32px;
+    margin-left: 18rem;
+    padding: 1.8rem 3.2rem;
     background-color: #034B5A;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    font-size: 1.4rem;
+    width: 50%;
+}
+
+.btn__services:hover {
+    background-color: #FE7C45;
+    border: none;
 }
 
 /* Cards*/
 
 .cards-services{
     display: flex;
-    margin: 30px 0 0 126px;
+    margin: auto;
+    padding-top: 60px;
     flex-wrap: wrap;
 }
 
@@ -48,6 +65,7 @@
     padding: 14px 38px;
     background-color: #fff;
     border-bottom: 4px solid #FE7C45;
+    margin-bottom: 20px;
 }
 
 .card__services:hover{
@@ -71,14 +89,14 @@
 
 .card__services h3 {
     font-family: 'Inter', sans-serif;
-    font-size: 18PX;
+    font-size: 1.8rem;
 }
 
 .card__services P {
     padding: 16PX 0;
     font-family: 'Inter', sans-serif;
-    font-size: 14PX;
-    line-height: 20PX;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
 }
 
 .card__services ul {
@@ -87,7 +105,7 @@
 
 .card__services li {
     margin-bottom: 16px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -101,7 +119,6 @@
     width: 100%;
     height: 1002px;
     margin-top: 88px;
-    display: flex;
     background-image:url("../img/truck-port.png");
     background-repeat: no-repeat;
     background-size: cover;

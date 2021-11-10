@@ -1,59 +1,269 @@
-@media screen and (max-width: 1360px) {
+@media (min-width: 1361px) and (max-width: 2640px) {
+
+    .html{
+        font-size: 60;
+    }
+
+    .banner{
+        background-image:url("../img/transportation-and-logistics-1536x484\ \(1\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 35%;
+        background-attachment: fixed;
+        height: 800px;
+        width: 100%;
+    }
+
+    .cards_world{
+        position: absolute;
+        top: 800px;
+        display: flex;
+    }
+    
+    .card_world{
+        width: 500px;
+        height: 175px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        padding-left: 20px;
+       }
+
+       .central_world{
+        width: 90%;
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        padding: 16rem 0 0 12.6rem;
+    }
+
+    .cards-truck{
+        display: flex;
+    }
+
+
+    .competence_links{
+        display: flex;
+    }
+
+    
+
+}
+
+@media (max-width: 1700px) {
+
+    .efeito_direita{
+        display: none;
+    }
+}
+
+@media (max-width: 1480px) {
+
+    .competence_all{
+        flex-direction: column;
+    }
+    .competence_imagem{
+        order: 1;
+    }
+
+    .competence_links{
+        order: 2;
+    }
+
+    .competence_imagem img{
+        padding-left: 400px;
+    }
+}
+
+
+@media (max-width: 1360px) {
+
+    nav img{
+        margin: 0 10%;
+    }
+
+    .banner{
+        background-image:url("../img/Consultoria-aduaneira-e-desembarco-alfandegario.jpg");
+        background-repeat: no-repeat;
+        
+        height: 800px;
+        width: 100%;
+    }
     
     .content-text{
-        margin: 0px 0 0 72px;
+        width: 90%;
+        max-width: 1199px;
+        margin: auto;
+    }
+
+    .central_world{
+        width: 90%;
+        max-width: 1199px;
+        margin: auto;
+        display: flex;
+        padding: 16rem 0 0 12.6rem;
     }
     
     .cards_world{
-        left: 16%;
+        position: absolute;
+        top: 800px;
+        display: flex;
     }
     
-    .world-text {
-        width: 80%;
+    .card_world{
+        width: 500px;
+        height: 175px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        padding-left: 20px;
+       }
+
+       .card__services:nth-child(1){
+        margin-left: 34px;
+     }
+
+       .cards-truck{
+        display: flex;
+    }
+
+    .competence_links{
+        display: flex;
+    }
+
+    .lista_competences a{
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media (max-width: 1310px) {
+    .central_world{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .central_world img{
+        order: 1;
+    }
+
+    .world-text{
+        padding-bottom: 15%;
+        padding-top: 5%;
+    }
+
+    .card__services:nth-child(1){
+        margin-left: 34px;
+     }
+
+    .cards-truck{
+        display: none;
     }
 
 
 }
 
-@media screen and (min-width: 1920px) {
+
+
+@media (max-width: 1200px) {
+
     .cards_world{
-        left: 25%;
+        width: 80%;
     }
+
+    html{
+        font-size: 60%;
+    }
+
     .central_world{
-        left: 50%;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .world-text {
-       margin-left: 7%;
+    .central_world img{
+        order: 1;
+    }
+
+    .cards_world{
+        position: absolute;
+        top: 800px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        left: 11%;
+    }
+
+    .card_world{
+        width: 600px;
+    }
+
+    .central_world{
+        width: 90%;
+        max-width: 1199px;
+        margin: auto;
+        padding: 16rem 0 0 12.6rem;
+        display: block;
     }
     
-    .world-text h2{
-        position: relative;
-        padding-bottom: 30px;
-        font-size: 45px;
-        font-family: 'Inter', sans-serif;
+    .world-text{
+        padding-bottom: 15%;
+        padding-top: 20%;
     }
     
-    .world-text p{
-        padding-bottom: 20px;
-        font-size: 16px;
-        font-family: 'Inter', sans-serif;
-    }
-
-    .texto_baixo{
-        padding-bottom: 30px;
-        font-size: 16px;
-        font-family: 'Inter', sans-serif;
-        color: #928b8b;
-        margin-bottom: 40px;
-    }
-
-    .header-services{
-        padding-left: 200px;
-    }
-
     .cards-services{
-        padding-left: 200px;
+        align-items: center;
     }
 
+    .card__services:nth-child(1){
+       margin-left: 34px;
+    }
+
+    .cards-truck{
+        display: none;
+    }
+
+    .btn__services{
+       display: none;
+    }
+
+    .trabalhador{
+        width: 100%;
+    }
+
+    .company_all{
+        flex-direction: column;
+    }
+
+    .company_cards{
+        margin-left: -50px;
+        padding-top: 50px;
+        order: 1;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .html{
+        font-size: 40%;
+    }
+
+    .news_cards{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    
+}
+
+
+@media (max-width: 950px) {
+    .company_cards{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
 }

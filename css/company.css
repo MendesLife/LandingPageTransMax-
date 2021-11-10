@@ -1,36 +1,43 @@
-
-.company_all{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 900px;
+#company{
     background-color: #F5F5F5;
+    width: 100%;
+    height: 800px;
     background-image: url("../img/Group\ 2\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.company_pai{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 16rem 0 0 12.6rem;
+}
+
+
+.company_all{
+    display: flex;
+}
+
 .company_texto{
     font-family: 'Inter', sans-serif;
-    margin-left: 300px;
 }
 
 .company_texto img{
     position: absolute;
-    left: 15%;
 }
 
 .company_texto h2{
     position: relative;
     color: rgb(0, 0, 0);
-   font-size: 40px;
+   font-size: 4.0rem;
    padding-bottom: 20px;
    width: 90%;
 }
 
 .company_texto span{
    color: #FE7C45;
-   font-size: 36px;
+   font-size: 3.6rem;
 }
 
 .company_texto p{
@@ -48,7 +55,7 @@
     background: #034B5B;
     color: #fff;
     font-family:  'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 1.2rem;
     border-radius: 4px;
 }
 
@@ -56,14 +63,13 @@
     display: flex;
     width: 100%;
     align-items: center;
-    flex-wrap: wrap;
-    margin-left: 200px;
+    margin-left: 50px;
 }
 
 .company_card{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Inter', sans-serif;
-    width: 35%;
+    width: 350px;
     height: 400px;
     margin-left: 50px;
     position: relative;

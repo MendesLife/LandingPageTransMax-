@@ -1,0 +1,24 @@
+ 
+  html {
+    /* a cada 1rem será considera 10px */
+    font-size: 62.5%;
+  }
+
+  html,
+body {
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 1.6rem;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
